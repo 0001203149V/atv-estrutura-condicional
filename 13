@@ -1,0 +1,7 @@
+let num1 = Number(prompt("Primeiro número:"));
+let num2 = Number(prompt("Segundo número:"));
+if (num1 % num2 === 0) {
+    alert("É múltiplo");
+}else{
+    alert("Não é múltiplo");
+}
