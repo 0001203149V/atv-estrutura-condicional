@@ -1,0 +1,21 @@
+let codigo = Number(prompt(`
+1 - X-Burguer - R$40
+2 - X-Salada - R$35
+3 - Cachorro Quente - R$10
+4 - Refrigerante - R$6`));
+switch (codigo){
+    case 1:
+        alert("X-Burguer - R$40");
+        break;
+    case 2:
+        alert("X-Salada - R$35");
+        break;
+    case 3:
+        alert("Cachorro Quente - R$10");
+        break;
+    case 4:
+        alert("Refrigerante - R$6");
+        break;
+    default:
+        alert("Produto não encontrado");
+}
