@@ -1,0 +1,18 @@
+let opcao = Number(prompt(`
+1 - Celsius para Fahrenheit
+2 - Fahrenheit para Celsius
+3 - Celsius para Kelvin`));
+let temperatura = Number(prompt("Digite a temperatura"));
+switch (opcao){
+    case 1:
+        alert((temperatura * 9/5)+32);
+        break;
+    case 2:
+        alert((temperatura-32)*5/9);
+        break;
+    case 3:
+        alert(temperatura+273.15);
+        break;
+    default:
+        alert("Opção inválida");
+}
