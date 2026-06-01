@@ -1,0 +1,6 @@
+let numero = Number(prompt("Digite um número:"));
+if (numero % 2 === 0) {
+    alert("Dobro: " + (numero * 2));
+}else{
+    alert("Triplo: " + (numero * 3));
+}
