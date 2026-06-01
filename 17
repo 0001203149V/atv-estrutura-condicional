@@ -1,0 +1,12 @@
+let letra = prompt("Digite uma letra").toLowerCase();
+if(
+    letra === "a" ||
+    letra === "e" ||
+    letra === "i" ||
+    letra === "o" ||
+    letra === "u"
+){
+    alert("É vogal");
+}else{
+    alert("Não é vogal");
+}
