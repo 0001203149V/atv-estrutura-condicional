@@ -1,0 +1,23 @@
+let num1 = Number(prompt("Primeiro número"));
+let num2 = Number(prompt("Segundo número"));
+let opcao = Number(prompt(`
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão`));
+switch (opcao){
+    case 1:
+        alert(num1 + num2);
+        break;
+    case 2:
+        alert(num1 - num2);
+        break;
+    case 3:
+        alert(num1 * num2);
+        break;
+    case 4:
+        alert(num1 / num2);
+        break;
+    default:
+        alert("Opção inválida");
+}
